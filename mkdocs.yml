@@ -1,0 +1,46 @@
+#
+# GDC Docs - Config
+#
+
+site_name: GDC Docs
+site_url: http://nci-gdc.github.io
+repo_url: https://github.com/nci-gdc/gdc-docs
+copyright: "&copy; GDC"
+theme_dir: theme
+pages:
+- Home: index.md
+- GDC:
+  - About: 'gdc/about.md'
+  - Authentication & Authorization: 'gdc/authentication-authorization.md'
+  - Data Processing Software: 'gdc/data-processing-software-and-algorithms/data-harmonization.md'
+  - Data Types and File Formats: 'gdc/data-types-and-file-formats.md'
+  - Dictionary: 'gdc/dictionary.md'
+  - Database: 'gdc/database.md'
+  - Infrastructure: 'gdc/infrastructure.md'
+- Data Portal:
+  - About: 'data-portal/about.md'
+- Submission GUI:
+  - About: 'submission-gui/01-Using_the_GDC_Data_Submission_Portal_User_Guide.md'
+  - Getting Started: 'submission-gui/02-Getting_Started_with_the_GDC_Data_Submission_Portal.md'
+  - Overview and Features: 'submission-gui/03-Overview_and_Features.md'
+  - Authentication and User Access: 'submission-gui/04-Authentication_And_User_Access.md'
+  - Landing Page: 'submission-gui/05-Landing-Page.md'
+  - Dashboard: 'submission-gui/06-Dashboard.md'
+  - Dictionary Viewer: 'submission-gui/07-Dictionary-Viewer.md'
+  - Submit Data: 'submission-gui/08-Submit_data.md'
+  - Cases: 'submission-gui/09-Cases.md'
+  - Biospecimen: 'submission-gui/10-Biospecimen.md'
+  - Data: 'submission-gui/11-Data.md'
+  - Reports: 'submission-gui/12-Reports.md'
+  - Transactions: 'submission-gui/13-Transactions.md'
+- Data Transfer Tool:
+  - About: 'data-transfer-tool/about.md'
+- API:
+  - About: 'API/01_-_Using_the_GDC_API_User_s_Guide.md'
+  - Getting Started: 'API/02_-_Getting_Started_with_GDC_API.md'
+  - Authentication and Authorization: 'API/03_-_Authentication_and_Authorization.md'
+  - Search and Retrieve Data: 'API/04_-_Searching_for_and_Retrieving_Data_and_Metadata.md'
+  - Download Files: 'API/05_-_Downloading_Files.md'
+  - BAM Slicing: 'API/06_-_BAM_Slicing.md'
+  - Submission: 'API/07_-_Submission.md'
+  - Examples: 'API/08_-_Examples.md'
